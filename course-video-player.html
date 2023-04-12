@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Elimudigito - Course Video Play</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <meta name="author" content="Webestica.com">
+	<meta name="description" content="Eduport- LMS, Education and Course Theme"> -->
+
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/plyr/plyr.css" />
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+<section class="py-0 bg-dark position-relative">
+
+	<div class="row g-0">
+		<div class="d-flex">
+			<div class="overflow-hidden fullscreen-video w-100">
+				<!-- Full screen video START -->
+				<div class="video-player rounded-3">
+					<video controls crossorigin="anonymous" playsinline poster="assets/images/video/none.png">
+						<source src="assets/images/video/somo_360p.mp4" type="video/mp4" size="360">
+						<source src="assets/images/video/somo_720p.mp4" type="video/mp4" size="720">
+						<source src="assets/images/video/somo_1080p.mp4" type="video/mp4" size="1080">
+						<!-- Caption files -->
+						<!-- <track kind="captions" label="English" srclang="en" src="assets/images/videos/en.vtt" default>
+						<track kind="captions" label="French" srclang="fr" src="assets/images/videos/fr.vtt"> -->
+					</video>
+				</div>
+				<!-- Full screen video END -->
+		
+				<!-- Plyr resources and browser polyfills are specified in the pen settings -->
+			</div>
+
+			<!-- Page content START -->
+			<div class="justify-content-end position-relative">
+				<!-- Collapse button START -->
+				<button class="navbar-toggler btn btn-white mt-4 plyr-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+					<span class="navbar-toggler-animation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>	
+				</button>
+				<!-- Collapse button END -->
+
+				<!-- Collapse body START -->
+				<div class="collapse collapse-horizontal" id="collapseWidthExample">
+					<div class="card vh-100 overflow-auto rounded-0 w-280px w-sm-400px">
+						<!-- Title -->
+						<div class="card-header bg-light rounded-0">
+							<h3 class="mt-2 fs-5">Introduction to Computer Hardware</h3>
+						</div>
+
+						<!-- Course content START -->
+						<div class="card-body">
+							<div class="d-sm-flex justify-content-sm-between">
+								<h5>Course content</h5>
+								<!-- Button -->
+								<button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#Notemodal">
+									<i class="fas fa-print fa-sm me-2"></i>Generate Notes
+								</button>
+							</div>
+							<hr> <!-- Divider -->
+							<!-- Course START -->
+								<div class="row">
+									<div class="col-12">
+										<!-- Accordion START -->
+										<div class="accordion accordion-flush-light accordion-flush" id="accordionExample">
+											<!-- Item -->
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingOne">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+														<span class="mb-0 fw-bold">What is computer hardware</span> 
+													</button>
+												</h2>
+												<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+													<div class="accordion-body px-3">
+														<div class="vstack gap-3">
+															<!-- Course lecture -->
+															<div>
+																<div class="d-flex justify-content-between align-items-center mb-2">
+																	<div class="position-relative d-flex align-items-center">
+																		<a href="#" class="btn btn-danger-soft btn-round btn-sm mb-0 stretched-link position-static">
+																			<i class="fas fa-play me-0"></i>
+																		</a>
+																		<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Introduction</span>
+																	</div>
+																	<p class="mb-0 text-truncate">2m 10s</p>
+																</div>
+															</div>	
+
+															<!-- Course lecture -->
+															<div>
+																<div class="d-flex justify-content-between align-items-center mb-2">
+																	<div class="position-relative d-flex align-items-center">
+																		<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																			<i class="fas fa-lock fa-sm me-0"></i>
+																		</a>
+																		<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">The role of hardware</span>
+																	</div>
+																	<p class="mb-0 text-truncate">08m 10s</p>
+																</div>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Difference between hard and software</span>
+																</div>
+																<p class="mb-0 text-truncate">12m 00s</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Item -->
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingTwo">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														<span class="mb-0 fw-bold">Computer Components</span> 
+													</button>
+												</h2>
+												<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+													<div class="accordion-body px-3">
+														<div class="vstack gap-3">
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-danger-soft btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-play me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Introduction</span>
+																</div>
+																<p class="mb-0 text-truncate">2m 10s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px"> What is motherboard</span>
+																</div>
+																<p class="mb-0 text-truncate">11m 05s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">What is CPU</span>
+																</div>
+																<p class="mb-0 text-truncate">13m 30s</p>
+															</div>
+														</div>	<!-- Row END -->
+													</div>
+												</div>
+											</div>
+
+											<!-- Item -->
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingThree">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+														<span class="mb-0 fw-bold">Communication Devices in a Computer</span> 
+													</button>
+												</h2>
+												<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+													<div class="accordion-body px-3">
+														<div class="vstack gap-3">
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-danger-soft btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-play me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Introduction</span>
+																</div>
+																<p class="mb-0 text-truncate">2m 10s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">What is keyboard</span>
+																</div>
+																<p class="mb-0 text-truncate">05m 00s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">What is mouse</span>
+																</div>
+																<p class="mb-0 text-truncate">06m 10s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Function of touchpad</span>
+																</div>
+																<p class="mb-0 text-truncate">08m 22s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Internal and External Links</span>
+																</div>
+																<p class="mb-0 text-truncate">12m 10s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">What is scanner</span>
+																</div>
+																<p class="mb-0 text-truncate">09m 04s</p>
+															</div>
+														</div>
+													</div>	
+												</div>
+											</div>
+
+											<!-- Item -->
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingFour">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+														<span class="mb-0 fw-bold">Dispaly and Playback Devices</span> 
+													</button>
+												</h2>
+												<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+													<div class="accordion-body px-3">
+														<div class="vstack gap-3">
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-danger-soft btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-play me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Output devices</span>
+																</div>
+																<p class="mb-0 text-truncate">06m 5s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Computer monitor</span>
+																</div>
+																<p class="mb-0 text-truncate">15m 20s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Speakers</span>
+																</div>
+																<p class="mb-0 text-truncate">32m 20s</p>
+															</div>
+
+															<!-- Course lecture -->
+															<div class="d-flex justify-content-between align-items-center">
+																<div class="position-relative d-flex align-items-center">
+																	<a href="#" class="btn btn-light btn-round btn-sm mb-0 stretched-link position-static">
+																		<i class="fas fa-lock fa-sm me-0"></i>
+																	</a>
+																	<span class="d-inline-block text-truncate ms-2 mb-0 h6 fw-light w-100px w-sm-200px">Printers</span>
+																</div>
+																<p class="mb-0 text-truncate">20m 20s</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<!-- Accordion END -->
+									</div>
+								</div>
+							<!-- Course END -->
+						</div>
+						<!-- Course content END -->
+
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="user-course-list.html" class="btn btn-outline-dark btn-sm mb-0"><i class="fa fa-arrow-left fa-sm" aria-hidden="true"></i>&nbsp;Back to course</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Collapse body END -->
+			</div>
+			<!-- Page content END -->
+		</div>
+	</div>
+
+</section>
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- Modal body START -->
+<div class="modal fade" id="Notemodal" tabindex="-1" aria-labelledby="NotemodalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h6 class="modal-title" id="NotemodalLabel">
+					<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+					<span class="sr-only">Wait downloading...</span>&nbsp;
+					Wait downloading ...
+				</h6>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal body END -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/plyr/plyr.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>
