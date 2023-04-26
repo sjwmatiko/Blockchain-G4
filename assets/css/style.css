@@ -335,6 +335,10 @@ small, .small {
   font-size: 0.875em;
 }
 
+medium, .medium {
+  font-size: 1em;
+}
+
 mark, .mark {
   padding: 0.1875em;
   background-color: var(--bs-highlight-bg);
@@ -20039,6 +20043,11 @@ small,
   font-weight: 400;
 }
 
+/* medium,
+.medium {
+  font-weight: 400;
+} */
+
 .smaller {
   font-size: 0.7em;
   font-weight: 400;
@@ -20076,6 +20085,44 @@ small,
   color: #5475bc;
 }
 
+.bg-whatsapp {
+  background-color: #25D366;
+  color: #fff;
+  border: none;
+  }
+  
+  .bg-whatsapp:hover, .bg-whatsapp:active, .bg-whatsapp:focus {
+  background-color: #1DA851;
+  color: #fff;
+  }
+  
+  .text-whatsapp {
+  color: #25D366;
+  }
+  
+  .text-whatsapp:hover {
+  color: #1DA851;
+  }
+
+  .bg-telegram {
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+  }
+  
+  .bg-telegram:hover, .bg-telegram:active, .bg-telegram:focus {
+    background-color: #006699;
+    color: #fff;
+  }
+  
+  .text-telegram {
+    color: #0088cc;
+  }
+  
+  .text-telegram:hover {
+    color: #006699;
+  }
+  
 .bg-instagram {
   background: #c22b72;
   color: #fff;
